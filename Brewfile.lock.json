@@ -70,6 +70,9 @@
       },
       "zoomus": {
         "version": "4.6.14751.1216"
+      },
+      "1password-cli": {
+        "version": "0.8.0"
       }
     },
     "brew": {
@@ -207,6 +210,27 @@
             "high_sierra": {
               "url": "https://homebrew.bintray.com/bottles/vim-8.2.0.high_sierra.bottle.tar.gz",
               "sha256": "ad72c9418717e63037f39d13aa9629aed0aba0d846c41505024c2f68488ffd03"
+            }
+          }
+        }
+      },
+      "hub": {
+        "version": "2.13.0",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/hub-2.13.0.catalina.bottle.1.tar.gz",
+              "sha256": "ecb167b7862314de59c67deb9c8dcbcec17ff78cc949cd7ce8309efb9f269e1e"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/hub-2.13.0.mojave.bottle.1.tar.gz",
+              "sha256": "22e8f62a10d5b985760ca626506b32a31c5a8f298df40a0560e034c7193c5bca"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/hub-2.13.0.high_sierra.bottle.1.tar.gz",
+              "sha256": "b44b83e821252707efd46b4d1b2920b34a540977941061280a148cf90f4b8e1d"
             }
           }
         }

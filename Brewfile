@@ -5,6 +5,7 @@ brew "fish"
 brew "git"
 brew "go"
 brew "htop"
+brew "hub"
 brew "tmux"
 brew "vim"
 
@@ -18,6 +19,7 @@ mas "Things", id: 904280696
 mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
 
+cask "1password-cli"
 cask "firefox"
 cask "font-inconsolata"
 cask "font-input"
