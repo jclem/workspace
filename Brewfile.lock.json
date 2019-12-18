@@ -73,6 +73,9 @@
       },
       "1password-cli": {
         "version": "0.8.0"
+      },
+      "gpg-suite": {
+        "version": "2019.2"
       }
     },
     "brew": {
