@@ -1,0 +1,40 @@
+[alias]
+    aa = add --all
+	ad = add --patch
+	br = browse
+	cm = commit
+	co = checkout
+	df = diff
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit --
+	pl = pull --rebase
+	pr = pull-request
+	ps = push
+	st = status
+[color]
+	ui = auto
+[commit]
+	gpgsign = true
+	template = ~/.stCommitMsg
+[core]
+	excludesfile = ~/.gitignore_global
+	whitespace = space-before-tab,trailing-space
+[credential]
+	helper = osxkeychain
+[diff]
+	indentHeuristic = true
+	mnemonicprefix = true
+	renames = copies
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[merge]
+	stat = true
+[rerere]
+	enabled = true
+[user]
+	name = Jonathan Clem
+	email = jonathan@jclem.net
+[include]
+	path = ~/.gitconfig_local

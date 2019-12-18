@@ -1,0 +1,137 @@
+#!/usr/bin/env fish
+
+# If a fish_mode_prompt is set, unset it so that `read` works in this script
+function fish_mode_prompt
+end
+
+function main
+    set -x fish_mode_prompt
+    echo $fish_mode_prompt
+
+    install_fish
+
+    echo
+
+    install_symlinks
+end
+
+function install_fish
+    echo (title_green "Installing fish configuration.")
+    mkdir -p "$HOME/config"
+    try_symlink (pwd)"/dotfiles/fish" "$HOME/.config/fish" "  "
+end
+
+function install_symlinks
+    set -l link_all
+    set -l link_none
+    set -l indent "  "
+
+    echo (title_green "Installing general symbolic links.")
+
+    for symlink in (find . -name '*.symlink')
+        set -l source (pwd)(echo "$symlink" | sed 's/\.//')
+
+        set -l target "$HOME/."(basename "$symlink" | \
+            awk -F. '{ $NF=""; print }' | \
+            sed 's/\ \([^$]\)/\.\1/' | \
+            sed 's/\ $//')
+
+        if set -q install_none
+            echo $indent(red "Not linking")" "(blue $source)(red .)
+            continue
+        end
+
+        if set -q install_all
+            try_symlink $source $target $indent
+            continue
+        end
+
+        echo $indent(green Link)" "(blue $source)" "(green to)" "(blue $target)(green "?")
+        read -P $indent"[("(green Y)")es, Yes to ("(green A)")ll, ("(red n)")o, ("(red q)")uit] " -n1 action
+
+        echo
+
+        switch $action
+            case Y
+                try_symlink $source $target $indent
+            case A
+                set install_all 1
+                try_symlink $source $target $indent
+            case N
+                set install_none 1
+                echo $indent(red "Not linking")" "(blue $source)(red .)
+            case q
+                goodbye
+            case '*'
+                echo $indent(yellow "Not linking")" "(blue $source)(yellow .)
+        end
+    end
+end
+
+# Attempt to create a symlink, prompting the user if it already exists.
+function try_symlink
+    set -l source $argv[1]
+    set -l target $argv[2]
+    set -l indent $argv[3]
+
+    if test -e $target
+        echo "$indent"(blue $target)" already exists. Overwrite?"
+        read -P $indent"[("(green Y)")es, ("(red n)")o], ("(red q)")uit] " -n1 action
+
+        echo
+
+        switch $action
+            case Y
+                create_symlink $source $target $indent
+            case q
+                goodbye
+            case '*'
+                echo $indent(yellow "Not linking")" "(blue "$source")(yellow ".")
+        end
+    else
+        create_symlink $source $target $indent
+    end
+end
+
+# Create symlink.
+function create_symlink
+    set -l source $argv[1]
+    set -l target $argv[2]
+    set -l indent $argv[3]
+
+    echo $indent(green Linking)" "(blue "$source")" "(green to)" "(blue "$target")(green .)
+    ln -sfn "$source" "$target"
+end
+
+# Colors
+
+## Get a blue string.
+function blue
+    echo -ne (set_color cyan)$argv(set_color normal)
+end
+
+## Get a green string.
+function green
+    echo -ne (set_color green)$argv(set_color normal)
+end
+
+## Get a red string.
+function red
+    echo -ne (set_color red)$argv(set_color normal)
+end
+
+## Get a yellow string.
+function yellow
+    echo -ne (set_color yellow)$argv(set_color normal)
+end
+
+function title_green
+    echo -ne (set_color green)""(set_color -b green)(set_color black)$argv(set_color -b normal)(set_color green)""(set_color normal)
+end
+
+function goodbye
+    echo (red Goodbye.)
+    exit 1
+end
+
+main
