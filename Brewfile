@@ -5,6 +5,8 @@ brew "fish"
 brew "git"
 brew "go"
 brew "htop"
+brew "tmux"
+brew "vim"
 
 mas "1Blocker", id: 1107421413
 mas "1Password", id: 1333542190
