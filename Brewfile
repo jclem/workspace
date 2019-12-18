@@ -14,10 +14,13 @@ mas "Reeder", id: 1449412482
 mas "Slack", id: 803453959
 mas "Things", id: 904280696
 mas "Twitter", id: 1482454543
+mas "Xcode", id: 497799835
 
 cask "firefox"
 cask "font-inconsolata"
 cask "font-input"
 cask "google-chrome"
+cask "iterm2"
 cask "notion"
 cask "visual-studio-code"
+cask "zoomus"
