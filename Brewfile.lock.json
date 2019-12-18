@@ -1,0 +1,99 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/cask": {
+        "revision": "794b0cf1006f8bb995e866607eaa59906967b3ea"
+      },
+      "homebrew/cask-fonts": {
+        "revision": "e023b49867372305d664a8a36e3fd81ea55daba4"
+      }
+    },
+    "mas": {
+      "Things": {
+        "id": "904280696",
+        "version": "3.10.1"
+      },
+      "1Password": null,
+      "Reeder": {
+        "id": "1449412482",
+        "version": "4.2.1"
+      },
+      "Twitter": {
+        "id": "1482454543",
+        "version": "8.4.1"
+      },
+      "Banktivity": {
+        "id": "1394863440",
+        "version": "7.4.2"
+      },
+      "Slack": {
+        "id": "803453959",
+        "version": "4.2.0"
+      },
+      "Monodraw": {
+        "id": "920404675",
+        "version": "1.4"
+      },
+      "1Blocker": {
+        "id": "1107421413",
+        "version": "3.1"
+      }
+    },
+    "cask": {
+      "google-chrome": {
+        "version": "79.0.3945.88"
+      },
+      "firefox": {
+        "version": "71.0"
+      },
+      "font-inconsolata": {
+        "version": "latest"
+      },
+      "font-input": {
+        "version": "latest"
+      },
+      "notion": {
+        "version": "2.0.5"
+      }
+    },
+    "brew": {
+      "asdf": {
+        "version": "0.7.6",
+        "bottle": false
+      },
+      "git": {
+        "version": "2.24.1",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.24.1.catalina.bottle.tar.gz",
+              "sha256": "2779f9cea861ef4d906093ac7b7255b3eeb7b6f76cbbc8407035bd3d3b80305d"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.24.1.mojave.bottle.tar.gz",
+              "sha256": "423599ea4d93020e4ee33965bf53c0e629c1d5a16e59efc657b4c914d9f52bd0"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.24.1.high_sierra.bottle.tar.gz",
+              "sha256": "ce56a6b4012a93bfee18cc5017788033c423bef5f732f3117dfa59b688b08b5c"
+            }
+          }
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "2.2.1",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "e04d0b5433c28bddab9414655a4d8d11eb3379d9",
+        "CLT": "11.0.0.0.1.1567737322",
+        "Xcode": "11.2.1",
+        "macOS": "10.15.2"
+      }
+    }
+  }
+}
