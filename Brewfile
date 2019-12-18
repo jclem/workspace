@@ -2,6 +2,8 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
 brew "git"
+brew "go"
+brew "htop"
 
 mas "1Blocker", id: 1107421413
 mas "1Password", id: 1333542190
