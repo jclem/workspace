@@ -6,6 +6,7 @@ brew "git"
 brew "go"
 brew "htop"
 brew "hub"
+brew "jq"
 brew "tmux"
 brew "vim"
 
