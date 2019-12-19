@@ -2,10 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "794b0cf1006f8bb995e866607eaa59906967b3ea"
+        "revision": "cf637d8086aa0cf7d5c3c9f01078b473e00c5673"
       },
       "homebrew/cask-fonts": {
         "revision": "e023b49867372305d664a8a36e3fd81ea55daba4"
+      },
+      "homebrew/cask-drivers": {
+        "revision": "585aaedc2111392d512f8fc9f43922a4e0f4a6c0"
       }
     },
     "mas": {
@@ -76,6 +79,15 @@
       },
       "gpg-suite": {
         "version": "2019.2"
+      },
+      "1password": {
+        "version": "7.4.1"
+      },
+      "istat-menus": {
+        "version": "6.40"
+      },
+      "logitech-options": {
+        "version": "8.02.86"
       }
     },
     "brew": {
@@ -270,7 +282,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "e04d0b5433c28bddab9414655a4d8d11eb3379d9",
+        "Homebrew/homebrew-core": "7cbbe74a9ddbeaa068f77fe91605a21befb66034",
         "CLT": "11.3.0.0.1.1574140115",
         "Xcode": "11.3",
         "macOS": "10.15.2"
