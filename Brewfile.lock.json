@@ -94,6 +94,9 @@
       },
       "unity": {
         "version": "2019.2.16f1,b9898e2d04a4"
+      },
+      "steam": {
+        "version": "latest"
       }
     },
     "brew": {
@@ -344,6 +347,48 @@
             "high_sierra": {
               "url": "https://homebrew.bintray.com/bottles/overmind-2.1.0.high_sierra.bottle.tar.gz",
               "sha256": "caca34564409a66cf16c544a9b6065db06b4c29d71725118dcc3de3dcaf75156"
+            }
+          }
+        }
+      },
+      "fzf": {
+        "version": "0.20.0",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/fzf-0.20.0.catalina.bottle.tar.gz",
+              "sha256": "0d51962d904b7cd680fd316cc4691b5a562ce1ae77d4dcbfd40006f91c0945d6"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/fzf-0.20.0.mojave.bottle.tar.gz",
+              "sha256": "c523ba3a6266bb58697e27f45adbf1a01d13560c22a0302dc946d3277da53274"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/fzf-0.20.0.high_sierra.bottle.tar.gz",
+              "sha256": "72b692bd10dcc27504657f6eaf40d60f60c290f2b13052d6e6ad08ecc65f9c48"
+            }
+          }
+        }
+      },
+      "rust": {
+        "version": "1.39.0",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/rust-1.39.0.catalina.bottle.tar.gz",
+              "sha256": "feea87a17ac222cb84b952d964067ce591063ff41f408cad6e7ad4d0c71d33d8"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/rust-1.39.0.mojave.bottle.tar.gz",
+              "sha256": "0d7c179f204475b6ae4438435fc59ef898fdc7399f9f43cc73e6f4b9114e12a9"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/rust-1.39.0.high_sierra.bottle.tar.gz",
+              "sha256": "0e2ee5ccad46ffafad625ed4c97d7b918be1e6e54dea0cbc72e323ed59d0bad9"
             }
           }
         }
