@@ -301,6 +301,52 @@
             }
           }
         }
+      },
+      "hivemind": {
+        "version": "1.0.6",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/hivemind-1.0.6.catalina.bottle.tar.gz",
+              "sha256": "ed80238e557ca71f115b2b3cd5031bfac16a3d02d8b37b386b629d89dd26af48"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/hivemind-1.0.6.mojave.bottle.tar.gz",
+              "sha256": "8e6f70ca5e0c8eb1e42d47bee207ec5333b453660d808103a36d53c51a7fb59a"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/hivemind-1.0.6.high_sierra.bottle.tar.gz",
+              "sha256": "7a89018774693681975cea22dcdebe35df043507476d1318f195e6d194978693"
+            },
+            "sierra": {
+              "url": "https://homebrew.bintray.com/bottles/hivemind-1.0.6.sierra.bottle.tar.gz",
+              "sha256": "4aa25b52b5c7fd3dc7ae29ab31cf19eeddde4e7685fd7e9838be0ea8cf09f3c1"
+            }
+          }
+        }
+      },
+      "overmind": {
+        "version": "2.1.0",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/overmind-2.1.0.catalina.bottle.tar.gz",
+              "sha256": "5e5aee58153a72b8ad07f9bb8fc6edc54253396ff6ac09edd656990afc75e148"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/overmind-2.1.0.mojave.bottle.tar.gz",
+              "sha256": "cd9943966640124680b2a2f9a1ace5fb50fea0e2401bc5206e096ad377f0a27d"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/overmind-2.1.0.high_sierra.bottle.tar.gz",
+              "sha256": "caca34564409a66cf16c544a9b6065db06b4c29d71725118dcc3de3dcaf75156"
+            }
+          }
+        }
       }
     }
   },
