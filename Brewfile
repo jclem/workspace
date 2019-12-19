@@ -8,6 +8,7 @@ brew "go"
 brew "htop"
 brew "hub"
 brew "jq"
+brew "ripgrep"
 brew "tmux"
 brew "vim"
 
