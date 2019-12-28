@@ -24,10 +24,12 @@ mas "Reeder", id: 1449412482
 mas "Slack", id: 803453959
 mas "Things", id: 904280696
 mas "Twitter", id: 1482454543
+mas "Tweetbot", id: 1384080005
 mas "Xcode", id: 497799835
 
 cask "1password-cli"
 cask "firefox"
+cask "font-fira-code"
 cask "font-inconsolata"
 cask "font-input"
 cask "google-chrome"
@@ -36,7 +38,9 @@ cask "istat-menus"
 cask "iterm2"
 cask "logitech-options"
 cask "logitech-camera-settings"
+cask "ngrok"
 cask "notion"
+cask "omnigraffle"
 cask "steam"
 cask "unity"
 cask "visual-studio-code"

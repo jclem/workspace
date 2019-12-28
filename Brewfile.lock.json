@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "cf637d8086aa0cf7d5c3c9f01078b473e00c5673"
+        "revision": "7eeef433d146ba1e5d22793450cbcb934cbacb10"
       },
       "homebrew/cask-fonts": {
         "revision": "e023b49867372305d664a8a36e3fd81ea55daba4"
@@ -14,16 +14,16 @@
     "mas": {
       "Things": {
         "id": "904280696",
-        "version": "3.10.1"
+        "version": "3.11"
       },
       "1Password": null,
       "Reeder": {
         "id": "1449412482",
-        "version": "4.2.1"
+        "version": "4.2.2"
       },
       "Twitter": {
         "id": "1482454543",
-        "version": "8.4.1"
+        "version": "8.4.2"
       },
       "Banktivity": {
         "id": "1394863440",
@@ -44,6 +44,10 @@
       "Xcode": {
         "id": "497799835",
         "version": "11.3"
+      },
+      "Tweetbot": {
+        "id": "1384080005",
+        "version": "3.3.3"
       }
     },
     "cask": {
@@ -96,6 +100,15 @@
         "version": "2019.2.16f1,b9898e2d04a4"
       },
       "steam": {
+        "version": "latest"
+      },
+      "font-fira-code": {
+        "version": "2"
+      },
+      "omnigraffle": {
+        "version": "7.12.1"
+      },
+      "ngrok": {
         "version": "latest"
       }
     },
@@ -400,7 +413,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "7cbbe74a9ddbeaa068f77fe91605a21befb66034",
+        "Homebrew/homebrew-core": "43ba25a94b6f80a699ba55f1ac50872246a8c78e",
         "CLT": "11.3.0.0.1.1574140115",
         "Xcode": "11.3",
         "macOS": "10.15.2"
