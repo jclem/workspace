@@ -27,6 +27,7 @@ mas "Twitter", id: 1482454543
 mas "Tweetbot", id: 1384080005
 mas "Xcode", id: 497799835
 
+cask "alfred"
 cask "1password-cli"
 cask "firefox"
 cask "font-fira-code"
@@ -38,6 +39,7 @@ cask "istat-menus"
 cask "iterm2"
 cask "logitech-options"
 cask "logitech-camera-settings"
+cask "netnewswire"
 cask "ngrok"
 cask "notion"
 cask "omnigraffle"

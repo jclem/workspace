@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "7eeef433d146ba1e5d22793450cbcb934cbacb10"
+        "revision": "538f4bcf23aa640406b45a3ae80db48e039a9fa6"
       },
       "homebrew/cask-fonts": {
-        "revision": "e023b49867372305d664a8a36e3fd81ea55daba4"
+        "revision": "1407d48a88309eb141dd1900d81398e18ed95ee8"
       },
       "homebrew/cask-drivers": {
-        "revision": "585aaedc2111392d512f8fc9f43922a4e0f4a6c0"
+        "revision": "0f0f3175132399fe3d2d570a27778f7397812fdb"
       }
     },
     "mas": {
@@ -97,7 +97,7 @@
         "version": "2.6.2"
       },
       "unity": {
-        "version": "2019.2.16f1,b9898e2d04a4"
+        "version": "2019.2.17f1,8e603399ca02"
       },
       "steam": {
         "version": "latest"
@@ -110,6 +110,12 @@
       },
       "ngrok": {
         "version": "latest"
+      },
+      "alfred": {
+        "version": "4.0.7_1131"
+      },
+      "netnewswire": {
+        "version": "5.0.3"
       }
     },
     "brew": {
@@ -350,16 +356,16 @@
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/overmind-2.1.0.catalina.bottle.tar.gz",
-              "sha256": "5e5aee58153a72b8ad07f9bb8fc6edc54253396ff6ac09edd656990afc75e148"
+              "url": "https://homebrew.bintray.com/bottles/overmind-2.1.0.catalina.bottle.1.tar.gz",
+              "sha256": "df98635534afa5d8f50dae0d94c22c322eb9207504286e2de3d893f48dd231be"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/overmind-2.1.0.mojave.bottle.tar.gz",
-              "sha256": "cd9943966640124680b2a2f9a1ace5fb50fea0e2401bc5206e096ad377f0a27d"
+              "url": "https://homebrew.bintray.com/bottles/overmind-2.1.0.mojave.bottle.1.tar.gz",
+              "sha256": "71e26cd0de3036d27a040b163754b9d6e7d00756e15158ec24e9709b10b512c3"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/overmind-2.1.0.high_sierra.bottle.tar.gz",
-              "sha256": "caca34564409a66cf16c544a9b6065db06b4c29d71725118dcc3de3dcaf75156"
+              "url": "https://homebrew.bintray.com/bottles/overmind-2.1.0.high_sierra.bottle.1.tar.gz",
+              "sha256": "749729e78f9702a2a2523a6f31c2a157a4266aeabc8e3a54b69cacad5edfc897"
             }
           }
         }
@@ -386,22 +392,22 @@
         }
       },
       "rust": {
-        "version": "1.39.0",
+        "version": "1.40.0",
         "bottle": {
-          "cellar": "/usr/local/Cellar",
+          "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/rust-1.39.0.catalina.bottle.tar.gz",
-              "sha256": "feea87a17ac222cb84b952d964067ce591063ff41f408cad6e7ad4d0c71d33d8"
+              "url": "https://homebrew.bintray.com/bottles/rust-1.40.0.catalina.bottle.tar.gz",
+              "sha256": "d32d463310da37b3cd5165e6def90159e8d223ffb4c2b8414dbda6eaf3f1e852"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/rust-1.39.0.mojave.bottle.tar.gz",
-              "sha256": "0d7c179f204475b6ae4438435fc59ef898fdc7399f9f43cc73e6f4b9114e12a9"
+              "url": "https://homebrew.bintray.com/bottles/rust-1.40.0.mojave.bottle.tar.gz",
+              "sha256": "37eb20eafba9ed6bdfc40ee96b0638c5e44c80e6d5a10d0431bbf0ea20c5bd6a"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/rust-1.39.0.high_sierra.bottle.tar.gz",
-              "sha256": "0e2ee5ccad46ffafad625ed4c97d7b918be1e6e54dea0cbc72e323ed59d0bad9"
+              "url": "https://homebrew.bintray.com/bottles/rust-1.40.0.high_sierra.bottle.tar.gz",
+              "sha256": "2768bdee84510629baba7f6a44cf0919bfe115d7971fdb917880fcbb8992bf51"
             }
           }
         }
@@ -411,9 +417,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.1",
+        "HOMEBREW_VERSION": "2.2.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "43ba25a94b6f80a699ba55f1ac50872246a8c78e",
+        "Homebrew/homebrew-core": "dcd99cc57a18b58eac134d244d7db84fca8743b9",
         "CLT": "11.3.0.0.1.1574140115",
         "Xcode": "11.3",
         "macOS": "10.15.2"
