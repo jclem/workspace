@@ -2,6 +2,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-drivers"
 
+brew "clojure"
 brew "fish"
 brew "fzf"
 brew "git"
@@ -27,8 +28,10 @@ mas "Twitter", id: 1482454543
 mas "Tweetbot", id: 1384080005
 mas "Xcode", id: 497799835
 
-cask "alfred"
 cask "1password-cli"
+cask "adoptopenjdk"
+cask "alfred"
+cask "dash"
 cask "firefox"
 cask "font-fira-code"
 cask "font-inconsolata"

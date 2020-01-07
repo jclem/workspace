@@ -116,6 +116,12 @@
       },
       "netnewswire": {
         "version": "5.0.3"
+      },
+      "adoptopenjdk": {
+        "version": "13.0.1,9"
+      },
+      "dash": {
+        "version": "5.0.3"
       }
     },
     "brew": {
@@ -411,6 +417,10 @@
             }
           }
         }
+      },
+      "clojure": {
+        "version": "1.10.1.492",
+        "bottle": false
       }
     }
   },
