@@ -16,3 +16,7 @@ set -x PATH $PATH "$HOME/.bin" "$GOPATH/bin"
 # Enable vi keybindings
 # See: https://fishshell.com/docs/current/commands.html#fish_vi_mode
 fish_vi_key_bindings
+
+for local_config in $CONFIG/fish/config.local/*.fish
+    source $local_config
+end
