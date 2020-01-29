@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "2895a33ccb3ed3463d0d7c493c7c36e069779ef2"
+        "revision": "b337ec366494f6162ac3adcd654ee637183ef7a5"
       },
       "homebrew/cask-fonts": {
         "revision": "783ef17621b10966ce78c8387faa38babca5d280"
@@ -131,6 +131,9 @@
       },
       "vmware-fusion": {
         "version": "11.5.1-15018442"
+      },
+      "google-cloud-sdk": {
+        "version": "latest"
       }
     },
     "brew": {
